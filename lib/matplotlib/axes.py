@@ -5157,7 +5157,7 @@ class Axes(martist.Artist):
             used to indicate this. lims-arguments may be of the same
             type as *xerr* and *yerr*.
             
-          *errorevery: integer
+          *errorevery*: positive integer
             subsamples the errorbars. Eg if everyerror=5, errorbars for every
             5-th datapoint will be plotted.
 
